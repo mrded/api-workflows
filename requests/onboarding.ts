@@ -1,4 +1,3 @@
-#!/usr/bin/env bun
 import { api } from "../lib/api";
 import { fakeCompany, fakeUser } from "../lib/fake";
 

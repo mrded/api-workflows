@@ -14,5 +14,9 @@
   },
   "dependencies": {
     "@faker-js/faker": "^9.0.0"
+  },
+  "bun-create": {
+    "start": "bun requests/create-user.ts",
+    "postinstall": "mv -f README.template.md README.md"
   }
 }
